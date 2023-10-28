@@ -1,4 +1,4 @@
-package passwordsystem;//随意添加一行注释
+package passwordsystem;
 import java.io.*;
 public class Demo {
 	public static void encryption() {
