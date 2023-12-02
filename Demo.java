@@ -9,15 +9,7 @@ public class Demo {
 		try{
 			str = bf.readLine();//用户输入一个字符串
 		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		char[] charArray = str.toCharArray();
-		for(int i=0;i<charArray.length;i++)
-			charArray[i]+=1+i+3;//将每个字符的ASCII码加上它在字符串中的位置(1开始)和偏移值3
-		char temp =charArray[0];
-		charArray[0] = charArray[charArray.length-1];
-		charArray[charArray.length-1] = temp;//将字符串的第一位和最后一位调换顺序
-		for (int i = 0; i < charArray.length / 2; i++) {
+			 / 2; i++) {
 		      temp = charArray[i];
 		      charArray[i] = charArray[charArray.length - 1 -i];
 		      charArray[charArray.length - 1 - i] = temp;
