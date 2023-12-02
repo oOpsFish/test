@@ -1,5 +1,5 @@
 package passwordsystem;
-import java.io.*;
+
 import java.util.Random;
 public class Demo {
 	public static void encryption() {
